@@ -1,11 +1,10 @@
 # config
-
 some basic setup for bash and vim
 
-## install
+## Install
 run 'sh install.sh', this will result in
-  + install pathogen for vim
-  + init and update git submodules for some plugins
+  + adding pathogen.vim into .vim/autoload
+  + init and update git submodules for some vim plugins
   + add symlinks for
     * ~/.vim
     * ~/.vimrc
