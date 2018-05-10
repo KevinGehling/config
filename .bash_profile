@@ -8,8 +8,6 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 export PS1="\[\033[0;31m\]\$(parse_git_branch)\[\033[0;37m\]\W \[\033[0;32m\]>\[\033[0m\] "
 
-alias dev-ms="ssh keving@dev-munster"
-alias calabash_goto="cd /Users/kevin.gehling/StudioProjects/check/plugins/shopping/test"
 alias ll='ls -las'
 
 parse_git_branch() {
